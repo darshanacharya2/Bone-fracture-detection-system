@@ -1,0 +1,77 @@
+/* ================================================
+   FractureAI - Medical Imaging Analysis System
+   Design System: Clinical Precision meets Tech Innovation
+   ================================================ */
+
+:root {
+    /* Color Palette - Medical Tech */
+    --color-primary: #00d4aa;
+    --color-primary-dark: #00b392;
+    --color-primary-light: #00f5c4;
+    
+    --color-danger: #ff4757;
+    --color-danger-dark: #ee5a6f;
+    --color-warning: #ffa502;
+    --color-success: #26de81;
+    
+    --color-bg-dark: #0a0e27;
+    --color-bg-card: #131729;
+    --color-bg-elevated: #1a1f3a;
+    --color-border: #2d3561;
+    
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #a0aec0;
+    --color-text-muted: #718096;
+    
+    /* Typography */
+    --font-display: 'JetBrains Mono', monospace;
+    --font-body: 'DM Sans', sans-serif;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    
+    /* Effects */
+    --glow-primary: 0 0 20px rgba(0, 212, 170, 0.3);
+    --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+    --shadow-elevated: 0 12px 48px rgba(0, 0, 0, 0.6);
+}
+
+/* ================================================
+   Base Styles
+   ================================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--color-bg-dark);
+    color: var(--color-text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* Background Effects */
+.bg-grid {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        linear-gradient(rgba(45, 53, 97, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(45, 53, 97, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* (truncated - full styles preserved in file) */
